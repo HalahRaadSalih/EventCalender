@@ -4,7 +4,8 @@
   "description": "This application will display events taking place within Galvanize and near by places. You can decide wether you'll be attending the event or not and check the event that you already have decided to go to.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/HalahRaadSalih/EventCalender/issues"
   },
-  "homepage": "https://github.com/HalahRaadSalih/EventCalender#readme"
+  "homepage": "https://github.com/HalahRaadSalih/EventCalender#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "meetup": "0.1.0-SNAPSHOT",
+    "morgan": "^1.6.1"
+  }
 }
